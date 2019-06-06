@@ -4,18 +4,21 @@ import "../styles/Badg.css"
 
 class Badge extends React.Component{
 render(){
+  // const firtName="Eleazar";
+  // const LastName="Curie";
     return(
     <div className="Badge">
         <div className="BadgeHeader">
            <img src={logoPrincipal} alt="Logo principal"></img>
         </div>
          <div className="BadgeName">
-            <img src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200&r=pg&d=404" alt="Avatar"></img>
-            <h1>Eleazar <br/> Curiel</h1>
+            <img src={this.props.avatar} alt="Avatar"></img>
+            <h1>{this.props.firstName}<br/>
+                {this.props.lastName}</h1>
          </div>
          <div className="BadgeSectionInfo">
-             <p>Frontend Engineer</p>
-             <p>@eleazarC</p>
+             <p>{this.props.jobTitle}</p>
+             <p>@{this.props.twitter}</p>
           </div>
           <div className="BadgeFooter">
               #famsa
