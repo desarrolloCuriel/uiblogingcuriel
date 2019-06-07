@@ -2,6 +2,7 @@ import React from 'react';
 import Nanvar from '../component/Nanvar.js'
 import header from '../img/badge-header.svg'
 import Badge from '../component/Badge.js'
+import BadgeForm from '../component/Badgeform.js'
 import '../styles/BadgeNew.css'
 class BadgeNew extends React.Component{
 
@@ -14,12 +15,15 @@ class BadgeNew extends React.Component{
                 </div>
                 <div className="container">
                     <div className="row">
-                       <div className="col">
-                        <Badge firstName="Eleazar"
+                       <div className="col-6">
+                            <Badge firstName="Eleazar"
                                lastName="Curiel Monjaraz"
                                twitter="curiel93"
                                jobTitle="Desarrollador full stac"
                                avatarUrl=""/>
+                       </div>
+                       <div className="col-6">
+                            <BadgeForm/>
                        </div>
                     </div>
                 </div>
