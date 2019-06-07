@@ -28,23 +28,23 @@ class Badgeform extends React.Component{
              <form onSubmit={this.handleOnsubmit}>
                <div className="form-group">
                    <label>First Name</label>
-                   <input onChange={this.handleChage} className="form-control" type="text" name="firstname" value={this.state.firstname}/>
+                   <input onChange={this.props.onChange} className="form-control" type="text" name="firstname" value={this.state.firstname}/>
                </div>
                <div className="form-group">
                    <label>Last Name</label>
-                   <input onChange={this.handleChage} className="form-control" type="text" name="lastname" value={this.state.lastname}/>
+                   <input onChange={this.props.onChange} className="form-control" type="text" name="lastname" value={this.state.lastname}/>
                </div>
                <div className="form-group">
                    <label>Email</label>
-                   <input onChange={this.handleChage} className="form-control" type="email" name="email" value={this.state.email}/>
+                   <input onChange={this.props.onChange} className="form-control" type="email" name="email" value={this.state.email}/>
                </div>
                <div className="form-group">
                    <label>Job Title</label>
-                   <input onChange={this.handleChage} className="form-control" type="text" name="jobtitle" value={this.state.jobtitle}/>
+                   <input onChange={this.props.onChange} className="form-control" type="text" name="jobtitle" value={this.state.jobtitle}/>
                </div>
                <div className="form-group">
                    <label>twitter</label>
-                   <input onChange={this.handleChage} className="form-control" type="text" name="twitter" value={this.state.twitter}/>
+                   <input onChange={this.props.onChange} className="form-control" type="text" name="twitter" value={this.state.twitter}/>
                </div>
                <button onClick={this.handleClick} className="btn btn-primary">Save</button>
              </form>

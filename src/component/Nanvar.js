@@ -5,7 +5,6 @@ import '../styles/Nanvar.css'
 class Nanvar extends React.Component{
 
      render(){
-
         return (
             <div className="nanvar">
                 <div className="container-fluid">
