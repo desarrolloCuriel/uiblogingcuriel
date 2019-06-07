@@ -1,0 +1,18 @@
+.nanvar{
+    width: 100%;
+    padding: 0.5rem0;
+    background-color: #1C3643;
+}
+.navbarbrand {
+    color: #ffffff;
+  
+    display: flex;
+    align-items: center;
+  } 
+  .navbarbrand:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .navbarbrandlogo {
+    margin-right: 0.5rem;
+  }
