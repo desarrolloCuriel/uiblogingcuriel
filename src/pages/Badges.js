@@ -1,10 +1,10 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import Nanvar from '../component/Nanvar'
 import logo from '../img/badge-header.svg'
 import '../styles/Badges.css'
 import data from './data.json'
 import BadgeList from '../component/BadgesList'
-
 class Badges extends React.Component{
      state={
          data:[
@@ -49,11 +49,11 @@ class Badges extends React.Component{
                   </div>
                   <div className="Badges__container">
                   <div className="Badges__buttons">
-                      <a href="/badges/new" className="btn btn-primary">New Badge</a>
+                      <Link to="/badges/new" className="btn btn-primary">New Badge</Link>
                   </div>
                   <div className="Badges__container">
                         <BadgeList badges={this.state.data}/>
-                          
+
                   </div>
               </div>
             </div>
