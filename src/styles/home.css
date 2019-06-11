@@ -1,0 +1,28 @@
+.homeheader{
+    width: 100%;
+    min-height: calc(100vh - 60px);
+    background: url('../img/stars.svg'), #1B1B25;
+    background-repeat: repeat;
+    color: #ffffff;
+    display: grid;
+    grid-template: 1fr / 100px 300px 1fr 100px;
+    grid-template-areas: ". text logo .";
+    align-items: center;
+    justify-items: center;
+ }
+
+ .colum-logo{
+    grid-area: logo;
+ }
+ .colum-logo img{
+     width: 100%;
+ }
+
+ .colum-text{
+    grid-area: text;
+     }
+
+.colum-text img{
+	margin-bottom: 10px;
+
+}
