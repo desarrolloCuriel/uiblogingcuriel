@@ -1,6 +1,5 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import Nanvar from '../component/Nanvar'
 import logo from '../img/badge-header.svg'
 import '../styles/Badges.css'
 import data from './data.json'
@@ -39,8 +38,7 @@ class Badges extends React.Component{
      }
      render(){
         return(
-          <div>
-              <Nanvar />
+          <React.Fragment>
               <div className="Badges">
                   <div className="Badges__hero">
                       <div className="Badges__container">
@@ -57,7 +55,7 @@ class Badges extends React.Component{
                   </div>
               </div>
             </div>
-          </div>
+          </React.Fragment>
           )
      }
 
