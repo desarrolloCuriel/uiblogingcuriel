@@ -8,10 +8,10 @@ class Home extends React.Component {
     return (
        <React.Fragment>
         <div className='homeheader'>
-             <dir className='colum-text'>
+            <dir className='colum-text'>
                 <img src={iconoHome} alt="Logo manager"/>
+                <h1>BADGE MANAGEMENT SYSTEM</h1>
                  <p>
-                     <h1>BADGE MANAGEMENT SYSTEM</h1>
                      <Link className='btn btn-primary' to="/badges">Start</Link>
                  </p>
             </dir>
