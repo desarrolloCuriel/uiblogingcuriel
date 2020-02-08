@@ -70,3 +70,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 ### `npm install all bootstrap`
 instalación de styles Bootstrap
+
+
+## `firebase deploy` depleyar en firebase

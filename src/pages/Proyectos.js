@@ -6,23 +6,24 @@ class Proyectos extends React.Component {
     data: [
       {
         id: 1,
-        nombre: "proyecto1",
-        descripcion: "descripcion",
-        link: "",
+        nombre: "Punto de venta (PosCuriel)",
+        descripcion:
+          "Software especializado para pequeñas y medianas empresas (PyMEs) en proceso de crecimiento que tienes la visión de competir y mejorar sus servicios, incorporando tecnologías y herramientas que les facilite un mejor control.",
+        link: "http://intecbic.com/",
         avatar: ""
       },
       {
         id: 2,
-        nombre: "proyecto2",
+        nombre: "Mercadito Yuta (Plataforma de ecommerce)",
         descripcion: "descripcion2",
-        link: "",
+        link: "https://mercadito-fff0d.firebaseapp.com/",
         avatar: ""
       },
       {
         id: 3,
-        nombre: "Proyecto3",
+        nombre: "Portal Municipal",
         descripcion: "descripcion3",
-        link: "",
+        link: "https://sanpedrosochiapam-ca1b6.firebaseapp.com",
         avatar: ""
       }
     ]

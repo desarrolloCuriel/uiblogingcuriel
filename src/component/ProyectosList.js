@@ -10,8 +10,8 @@ class ProyectoList extends React.Component {
               <div className="card-body">
                 <h5 className="card-title">{proyecto.nombre}</h5>
                 <p class="card-text">{proyecto.descripcion}</p>
-                <a href="#" class="btn btn-primary">
-                  Go somewhere
+                <a href={proyecto.link} className="btn btn-primary">
+                  Ir
                 </a>
               </div>
             </li>
