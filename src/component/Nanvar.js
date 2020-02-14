@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../img/logo.svg";
+
 import "../styles/Nanvar.css";
 
 class Nanvar extends React.Component {
@@ -9,7 +9,6 @@ class Nanvar extends React.Component {
       <div className="nanvar">
         <div className="container-fluid">
           <Link className="nanvarbrand nav-link" to="/">
-            <img className="nanvarbrandlogo" src={logo} alt="Logo" />
             <span className="font-weight-light">Blog</span>
             <span className="font-weight-bold"> Ing CURIEL</span>
           </Link>
@@ -22,11 +21,6 @@ class Nanvar extends React.Component {
             <li className="nav-item">
               <Link className="nav-link" to="/proyectos">
                 Proyectos
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/blogs">
-                Blog
               </Link>
             </li>
           </ul>

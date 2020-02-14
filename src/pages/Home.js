@@ -1,7 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import imagenperfil from "../img/fotoperfil.jpeg";
-import iconoHome2 from "../img/astronauts.svg";
 import "../styles/home.css";
 import Perfil from "../component/Perfil";
 import Contacto from "../component/Contacto";

@@ -1,5 +1,4 @@
 import React from "react";
-import logoPrincipal from "../img/badge-header.svg";
 import "../styles/Badge.css";
 
 class Badge extends React.Component {
@@ -7,7 +6,7 @@ class Badge extends React.Component {
     return (
       <div className="Badge">
         <div className="BadgeHeader">
-          <img src={logoPrincipal} alt="Logo principal"></img>
+          <img src="" alt="Logo principal"></img>
         </div>
         <div className="BadgeName">
           <img src={this.props.avatar} alt="Avatar"></img>

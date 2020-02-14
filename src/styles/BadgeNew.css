@@ -1,8 +1,7 @@
-.badgenewheader{
-    width: 100%;
-    padding: 2rem 0;
-    background: url('../img/stars.svg'), #1B1B25;
-    background-repeat: repeat;
-    margin-bottom: 1rem;
-    color: #ffffff;
+.badgenewheader {
+  width: 100%;
+  padding: 2rem 0;
+  background-repeat: repeat;
+  margin-bottom: 1rem;
+  color: #ffffff;
 }

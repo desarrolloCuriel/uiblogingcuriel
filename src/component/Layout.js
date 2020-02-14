@@ -1,13 +1,12 @@
 import React from "react";
 import Nanvar from "./Nanvar";
-
+import Footer from "./Footer";
 function Layout(props) {
-  // const children=props.children
-  //props.children
   return (
     <React.Fragment>
       <Nanvar />
       {props.children}
+      <Footer />
     </React.Fragment>
   );
 }
