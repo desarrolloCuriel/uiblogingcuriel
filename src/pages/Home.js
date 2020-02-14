@@ -15,13 +15,14 @@ class Home extends React.Component {
             <div className="col-sm-6">
               <div className="card">
                 <div className="row">
-                  <div className="col-sm-6">
+                  <div className="col-sm-6 text-center">
                     <img
                       src={imagenperfil}
                       alt="Logo manager"
                       className="rounded-circle"
                       width="100%"
                     />
+                    <p>Eleazar Curiel Monjaraz</p>
                   </div>
                   <div className="col-sm-6">
                     <div className="card-header">
@@ -29,15 +30,15 @@ class Home extends React.Component {
                     </div>
                     <div className="card">
                       <ul className="list-group list-group-flush">
-                        <li className="list-group-item">
+                        <li className="list-group-item text-justify">
                           Full Stack Developer Con más de 4 años de experiencia
                           desarrollando software a la media.
                         </li>
-                        <li className="list-group-item">
+                        <li className="list-group-item text-justify">
                           Analista y consultor de software en proyectos de
                           producción, retail y tableros de control (BI).
                         </li>
-                        <li className="list-group-item">
+                        <li className="list-group-item text-justify">
                           Freelance Diseñador wordpress
                         </li>
                       </ul>

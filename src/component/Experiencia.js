@@ -11,8 +11,8 @@ function Experiencia(props) {
                 <h5>{exp.puesto}</h5>
               </div>
               <div className="card-body">
-                <p>Empresa :{exp.empresa}</p>
-                <p>Ubicación :{exp.ubicacion}</p>
+                <p>Empresa : {exp.empresa}</p>
+                <p>Ubicación : {exp.ubicacion}</p>
               </div>
             </li>
           );

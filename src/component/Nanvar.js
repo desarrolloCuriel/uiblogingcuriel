@@ -25,7 +25,7 @@ class Nanvar extends React.Component {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/badges">
+              <Link className="nav-link" to="/blogs">
                 Blog
               </Link>
             </li>

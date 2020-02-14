@@ -41,12 +41,6 @@ function Perfil() {
         <h1>Experiencia</h1>
         <Experiencia experiencia={experiencia} />
       </div>
-      <div>
-        <h1>Educación</h1>
-      </div>
-      <div>
-        <h1>Licencias y certificaciones</h1>
-      </div>
     </div>
   );
 }
