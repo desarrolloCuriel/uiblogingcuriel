@@ -1,5 +1,5 @@
 import React from "react";
-import ProyectoList from "../component/ProyectosList";
+import ProyectoList from "../component/proyecto/ProyectosList";
 import proyectoData from "../util/data/proyectos";
 
 class Proyectos extends React.Component {
