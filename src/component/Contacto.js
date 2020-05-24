@@ -11,22 +11,22 @@ function Contacto() {
           <div className="col"></div>
           <div className="col">
             <a href="https://www.linkedin.com/in/eleazar-curiel-monjaraz-994305170/">
-              <img src={logolinkedin} className="iconocontacto" />
+              <img src={logolinkedin} className="iconocontacto"  alt='Linkedin'/>
             </a>
           </div>
           <div className="col">
             <a href="https://twitter.com/CurielEleazar">
-              <img src={logotwiter} className="iconocontacto" />
+              <img src={logotwiter} className="iconocontacto" alt='Twiter'/>
             </a>
           </div>
           <div className="col">
             <a href="https://gitlab.com/eleazar-00">
-              <img src={logogitlab} className="iconocontacto" />
+              <img src={logogitlab} className="iconocontacto" alt='Repositorio Gitlab'/>
             </a>
           </div>
           <div className="col">
             <a href="https://github.com/desarrolloCuriel">
-              <img src={logogithub} className="iconocontacto" />
+              <img src={logogithub} className="iconocontacto" alt='Repositorio GitHub' />
             </a>
           </div>
           <div className="col"></div>

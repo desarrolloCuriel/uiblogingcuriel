@@ -11,7 +11,7 @@ class BadgeList extends React.Component {
             <li key={badge.id} className="Badgelist">
               <div className="row">
                 <div className="col-4">
-                  <img src={badge.avatarUrl} className="avatalist" />
+                  <img src={badge.avatarUrl} className="avatalist" alt='Avatar'/>
                 </div>
                 <div className="col-8">
                   <h5>
@@ -19,7 +19,7 @@ class BadgeList extends React.Component {
                   </h5>
                   <p>{badge.jobTitle}</p>
                   <p className="styletwitter">
-                    <img src={logotwitter} className="logotwitter" />@
+                    <img src={logotwitter} className="logotwitter" alt='Twiter' />@
                     {badge.twitter}
                   </p>
                 </div>

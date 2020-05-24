@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Badges.css";
-import data from "./data.json";
+//import data from "./data.json";
 import BadgeList from "../component/BadgesList";
 class Badges extends React.Component {
   state = {
