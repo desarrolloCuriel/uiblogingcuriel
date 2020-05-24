@@ -29,8 +29,8 @@ class Home extends React.Component {
                     <div className="card">
                       <ul className="list-group list-group-flush">
                         <li className="list-group-item text-justify">
-                          Full Stack Developer Con más de 4 años de experiencia
-                          desarrollando software a la media.
+                          Full Stack Developer con más de 4 años de experiencia
+                          desarrollando software a la medida.
                         </li>
                         <li className="list-group-item text-justify">
                           Analista y consultor de software en proyectos de
