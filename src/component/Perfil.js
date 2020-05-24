@@ -6,7 +6,7 @@ function Perfil() {
     {
       id: 1,
       puesto: "Full stack developer",
-      logo: "",
+      logo: "logo",
       empresa: "Grupo famsa",
       ubicacion: "Monterrey,NL. Mexico",
       descripcion: "",
@@ -16,19 +16,18 @@ function Perfil() {
     {
       id: 2,
       puesto: "Analistas y Desarrollador java",
-      logo: "",
+      logo: "logo",
       empresa: "World Software Services",
       ubicacion: "Monterrey,NL. Mexico",
       descripcion: "",
       fechaInicio: "01/02/2018",
       fechaFin: "01/29/2019"
-    },
-    ,
+    }, 
     {
       id: 3,
       puesto: "Desarrollador web",
       empresa: "Soft Design Factory México",
-      logo: "",
+      logo: "logo",
       ubicacion: "Mexico",
       descripcion: "",
       fechaInicio: "01/08/2015",

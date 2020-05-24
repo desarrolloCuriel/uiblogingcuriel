@@ -12,7 +12,6 @@ function Blogs() {
       id: 2,
       nombre: "Programacion"
     },
-    ,
     {
       id: 3,
       nombre: "Diseño web"

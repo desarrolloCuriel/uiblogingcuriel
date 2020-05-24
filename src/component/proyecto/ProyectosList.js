@@ -11,7 +11,7 @@ class ProyectoList extends React.Component {
               <div className="card-body">
                 <div className="row">
                   <div className="col-sm-2 text-center">
-                    <img src={proyecto.avatar} />
+                    <img src={proyecto.avatar} alt='Avatar'/>
                   </div>
                   <div className="col-sm-10">
                     <h4 className="card-title">{proyecto.nombre}</h4>
