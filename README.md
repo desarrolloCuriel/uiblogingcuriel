@@ -73,9 +73,20 @@ instalación de styles Bootstrap
 
 
 ## `firebase deploy` deploy firebase local
-
+```npm
 npm install -g firebase-tools
+```
+```npm
 firebase login
+```
+```npm
 firebase init
+```
+```npm
 npm run build --prod
+```
+```npm
 firebase deploy
+```
+ 
+

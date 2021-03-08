@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <footer className='footer'>
-        <div className="row container">
+        <div className="row" style={{margin:'0'}}>
           <div className="col-xl-4 col-sm-6 col-6"  >
             <p><strong>Contenido</strong></p>
             <hr className="line"></hr>
