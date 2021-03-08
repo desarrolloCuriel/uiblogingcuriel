@@ -1,9 +1,21 @@
 .banner {
-  background-color: black;
+  background-color:black;
   color: white;
   text-align: center;
+  width: 100%;
+  height: 100%;
 }
 .proyectolist {
   background-color: white;
   margin: 2%;
+}
+
+.logo-proyecto {
+  width: 100%;
+}
+
+@media only screen and (min-width: 480px) {
+  .logo-proyecto  {
+    width: 30%;
+  }
 }

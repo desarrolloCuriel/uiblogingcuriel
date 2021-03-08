@@ -7,8 +7,8 @@ function Perfil() {
       id: 1,
       puesto: "Full stack developer",
       logo: "logo",
-      empresa: "Grupo famsa",
-      ubicacion: "Monterrey,NL. Mexico",
+      empresa: "Corporativo Famsa",
+      ubicacion: "Monterrey, NL. Mexico",
       descripcion: "",
       fechaInicio: "01/02/2019",
       fechaFin: ""
@@ -18,7 +18,7 @@ function Perfil() {
       puesto: "Analistas y Desarrollador java",
       logo: "logo",
       empresa: "World Software Services",
-      ubicacion: "Monterrey,NL. Mexico",
+      ubicacion: "Monterrey, NL. Mexico",
       descripcion: "",
       fechaInicio: "01/02/2018",
       fechaFin: "01/29/2019"
@@ -37,7 +37,7 @@ function Perfil() {
   return (
     <div>
       <div>
-        <h1>Experiencia</h1>
+        <h5 className="text-center">Experiencia laboral</h5>
         <Experiencia experiencia={experiencia} />
       </div>
     </div>

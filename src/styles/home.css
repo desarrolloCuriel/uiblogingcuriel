@@ -1,18 +1,15 @@
-.homeheader {
+ 
+.card-logo {
+  align-items: center;
+  }
+
+.homebody{
   width: 100%;
-  padding: 5%;
+  background-color: white;
 }
 
 .col-foto-perfil {
   text-align: center;
-}
-
-.cardcontacto {
-  background-color: red;
-}
-
-.iconocontacto {
-  width: 100%;
 }
 
 @media only screen and (min-width: 640px) {
@@ -20,3 +17,17 @@
     width: 50%;
   }
 }
+
+.habilidades-transform{
+  text-align: center;
+  padding-top: 10%; 
+  margin: 2%;
+  color: white;
+  width: 130px; 
+  height: 70px; 
+  -webkit-transform: skew(20deg);
+  -moz-transform: skew(20deg);
+  -ms-transform: skew(20deg);
+  -o-transform: skew(20deg);
+  transform: skew(20deg);
+} 

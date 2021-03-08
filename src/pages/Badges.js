@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import imageningcuriel from "../img/ingcuriel.jpg";
 import "../styles/Badges.css";
 //import data from "./data.json";
 import BadgeList from "../component/BadgesList";
@@ -44,7 +45,8 @@ class Badges extends React.Component {
         <div className="Badges">
           <div className="Badges__hero">
             <div className="Badges__container">
-              <img src="" className="Badges_conf-logo" alt="Conf Logo" />
+              <img src={imageningcuriel} className="Badges_conf-logo" alt="logo" width="50%" />
+              <h2>Certificaciones</h2>
             </div>
           </div>
           <div className="Badges__container">
@@ -52,7 +54,7 @@ class Badges extends React.Component {
               <Link to="/badges/new" className="btn btn-primary">
                 New Badge
               </Link>
-            </div>
+               </div>
             <div className="Badges__container">
               <BadgeList badges={this.state.data} />
             </div>

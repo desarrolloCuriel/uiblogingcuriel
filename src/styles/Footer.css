@@ -1,11 +1,12 @@
-.footer {
-  background-color: silver;
-}
+footer {
+  background-color:#04405D;
+  width: 100%;
+  height: 100%;
+  color: white;
+} 
 
-div.row {
-  margin: 0%;
+footer .line {
+  height: 1px;
+  background-color: white
 }
-
-ul {
-  list-style-type: none;
-}
+  

@@ -1,46 +1,59 @@
 import React from "react";
 import "../styles/Footer.css";
+import imageningcuriel from "../img/ingcuriel.jpg";
 
 const Footer = () => {
   return (
     <>
-      <footer className="footer">
-        <div className="container">
-          <div className="row">
-            <div className="col-sm">
-              <p>Redes sociales</p>
-              <ul>
-                <li>
-                  <a href="https://www.linkedin.com/in/eleazar-curiel-monjaraz-994305170/">
-                    Linkedin
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/CurielEleazar">twitter</a>
-                </li>
-              </ul>
-            </div>
-            <div className="col-sm">
-              <p>Repository</p>
-              <ul>
-                <li>
-                  <a href="https://gitlab.com/eleazar-00">GitLab</a>
-                </li>
-                <li>
-                  <a href="https://github.com/desarrolloCurie">GitHub</a>
-                </li>
-              </ul>
-            </div>
-            <div className="col-sm">
-              <p>Contacto</p>
-              <ul>
-                <li>Email: eleazar-00@hotmail.com</li>
-                <li>Cel: 8112370478</li>
-              </ul>
-            </div>
+      <footer className='footer'>
+        <div className="row container">
+          <div className="col-xl-4 col-sm-6 col-6"  >
+            <p><strong>Contenido</strong></p>
+            <hr className="line"></hr>
+            <ul className="list-unstyled">
+              <li>
+                <a href="/">
+                 <strong>Perfil</strong>
+                </a>
+              </li>
+              <li>
+                <a href="/proyectos"><strong>Portafolio</strong></a>
+              </li>
+            </ul>
           </div>
-          <div className="row footer-row2"></div>
+          <div className="col-xl-4 col-sm-6 col-6"  >
+            <p><strong>Repositorios</strong></p>
+            <hr className="line"></hr>
+            <ul className="list-unstyled">
+              <li>
+                <a href="https://gitlab.com/eleazar-00"><strong>GitLab</strong></a>
+              </li>
+              <li>
+                <a href="https://github.com/desarrolloCurie"><strong>GitHub</strong></a>
+              </li>
+            </ul>
+          </div>
+          <div className="col-xl-4 col-sm-6 col-6"  >
+            <p><strong>Contacto</strong></p>
+            <hr className="line"></hr>
+            <ul className="list-unstyled">
+              <li>
+                <a href="https://www.linkedin.com/in/eleazar-curiel-monjaraz-994305170/"><strong>Linkedin</strong></a>
+              </li>
+              <li>
+                <a href="#"><strong>eleazar.isc@gmail.com</strong></a>
+              </li>
+            </ul>
+          </div> 
         </div>
+
+        <div className="row " width="100%">
+          <div className="col text-center">
+            <img src={imageningcuriel} alt="Logo"  width="40%"/>
+             <p className="">© Eleazar Curiel Monjarz  2021</p>
+          </div>
+        </div>
+
       </footer>
     </>
   );

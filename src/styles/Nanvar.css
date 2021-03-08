@@ -1,12 +1,11 @@
-.nanvar {
-  width: 100%;
-  padding: 0.5rem0;
-  background-color: #04406d;
-}
-
-.nav-link {
+ .navbar {
+  background-color: #0f6b99;
   color: white;
-}
-.nav-link:hover {
-  color: red;
+ }
+
+ .nav-link {
+    color: white;
+  }
+a {
+  color: white;
 }

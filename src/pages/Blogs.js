@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import Categoria from "../component/post/Categoria";
 import Postlist from "../component/post/Postlist";
 
