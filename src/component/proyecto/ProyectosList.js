@@ -10,10 +10,10 @@ class ProyectoList extends React.Component {
             <li key={proyecto.id} className="card proyectolist">
               <div className="card-body">
                 <div className="row">
-                  <div className="col-xl-2 col-12 text-center">
-                    <img src={proyecto.avatar} alt='Avatar' width="50%"/>
+                  <div className="col-xl-3 col-12 text-center">
+                    <img src={proyecto.avatar} alt='Avatar' width="80%"/>
                   </div>
-                  <div className="col-xl-10 col-12">
+                  <div className="col-xl-9 col-12">
                     <h4 className="card-title  text-center">{proyecto.nombre}</h4>
                     <p className="card-text text-justify">
                       {proyecto.descripcion}
