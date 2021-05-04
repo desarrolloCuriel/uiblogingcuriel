@@ -1,5 +1,5 @@
 import React from "react";
-import imagenperfil from "../img/fotoperfil2.jpeg";
+import imagenperfil from "../img/perfilpagina.png";
 import imageningcuriel from "../img/ingcuriel.jpg";
 import slidebd from "../img/slide/bd.jpg";
 import slidehtml from "../img/slide/htmljavacss.jpg"
@@ -15,10 +15,10 @@ class Home extends React.Component {
         <div className="card"> 
           <div className="card-body">
             <div className="row" >
-              <div className="col-xl-3 col-sm-5 col-5 text-center">
-                   <img src={imagenperfil} alt="Logo manager" className="" width="80%" style={{borderRadius: "10PX"}}/>
+              <div className="col-xl-3 col-sm-6 col-12 text-center">
+                   <img src={imagenperfil} alt="Logo manager" className="" width="90%" style={{borderRadius: "10PX"}}/>
                </div>
-              <div className="col-xl-3 col-sm-7 col-7">
+              <div className="col-xl-3 col-sm-6 col-12 text-center" >
                 <h5 className="card-title">Eleazar Curiel Monjaraz</h5>
                 <h6><strong>FullStack Developer</strong></h6>
                 <h6 className="card-title">Ing. en sistemas computacionales</h6>
