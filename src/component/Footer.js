@@ -42,7 +42,7 @@ const Footer = () => {
                 <a href="https://www.linkedin.com/in/eleazar-curiel-monjaraz-994305170/"><strong>Linkedin</strong></a>
               </li>
               <li>
-                <a href="#"><strong>eleazar.isc@gmail.com</strong></a>
+                <a ><strong>eleazar.isc@gmail.com</strong></a>
               </li>
             </ul>
           </div> 

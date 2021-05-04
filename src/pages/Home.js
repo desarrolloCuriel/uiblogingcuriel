@@ -1,6 +1,5 @@
 import React from "react";
 import imagenperfil from "../img/perfilpagina.png";
-import imageningcuriel from "../img/ingcuriel.jpg";
 import slidebd from "../img/slide/bd.jpg";
 import slidehtml from "../img/slide/htmljavacss.jpg"
 import slidegit from "../img/slide/git.jpeg"
