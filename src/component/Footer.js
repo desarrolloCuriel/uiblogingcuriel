@@ -20,6 +20,9 @@ const Footer = () => {
               <li>
                 <a href="/proyectos"><strong>Portafolio</strong></a>
               </li>
+              <li>
+                <a href="https://www.intecbic.com/"><strong>Blog</strong></a>
+              </li>
             </ul>
           </div>
           <div className="col-xl-3 col-sm-6 col-6"  >
