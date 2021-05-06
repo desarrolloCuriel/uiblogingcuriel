@@ -11,25 +11,25 @@ class Home extends React.Component {
   render() {
     return (
       <React.Fragment> 
-        <div className="card"> 
-          <div className="card-body">
-            <div className="row" >
-              <div className="col-xl-3 col-sm-6 col-12 text-center">
-                   <img src={imagenperfil} alt="Logo manager" className="" width="90%" style={{borderRadius: "10PX"}}/>
+        <div className="" > 
+          <div className="card-body" style={{background:"#04406D"}}>
+            <div className="row"  style={{background:"#04406D"}}>
+               <div className="col-xl-3 col-sm-6 col-12" style={{background:"white", padding:"0px"}}>
+                   <img src={imagenperfil} alt="Logo manager" className="" width="90%" style={{borderRadius: "0PX"}}/>
                </div>
-              <div className="col-xl-3 col-sm-6 col-12 text-center" >
-                <h5 className="card-title">Eleazar Curiel Monjaraz</h5>
-                <h6><strong>FullStack Developer</strong></h6>
-                <h6 className="card-title">Ing. en sistemas computacionales</h6>
+              <div className="col-xl-3 col-sm-6 col-12 text-center" style={{background:"white"}}>
+                <h4 className="card-title">Eleazar Curiel Monjaraz</h4>
+                <h5><strong>FullStack Developer</strong></h5>
+                <h5 className="card-title">Ing. en sistemas computacionales</h5>
                 <Contacto />
               </div>
-              <div className="col-xl-6 col-sm-12 col-12">
-                  <p className="card-text text-justify">
+              <div className="col-xl-6 col-sm-12 col-12" style={{color:"white"}}>
+                  <p className="card-text text-justify" style={{fontSize:"24px"}}>
                     Ingeniero en sistemas con amplia experiencia en las fases del desarrollo de software a la
                     medida. He colaborado en el análisis e implementación de nuevas herramientas tecnológicas
                     que mejoren la productividad de empresas con la visión de crecimiento.
                 </p>
-               </div>
+              </div>
             </div>
           </div>
 
